@@ -1,0 +1,19 @@
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n;                          // z tej liczby będziemy liczyć silnię
+  	double silnia = 1;              // ta zmienna będzie przechowywać wynik
+
+	cout<<"Podaj n: ";              // drukujemy na ekran "podaj n: "
+	cin>>n;                         // pobieramy liczbe z klawiatury i "wrzucamy" do n
+
+	for(int i=n;i>1;i--)            // petla for ktora wykonuje sie dopoki i jest wieksze od 1 a do i wrzucamy liczbe n ktora podaje uzytkownik dlatego petla wykona sie tyle razy ile wpiszemy do n
+	silnia = silnia * i;            // aktualizujemy wartosc silni za kazdym krokiem petli i mnozymy o wartosc "i" ktora z kazdym krokiem zmniejsza sie o 1 (i--)
+
+	cout<<n<<"! = "<<silnia<<endl;  // drukujemy na ekran silnie oraz jej wynik
+
+	return 0;
+}
