@@ -15,5 +15,5 @@ int main()
 
 	cout<<n<<"! = "<<silnia<<endl;  // drukujemy na ekran silnie oraz jej wynik
 
-	return 0;
+	
 }
